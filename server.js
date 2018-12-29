@@ -1,9 +1,17 @@
 const express = require('express')
 const app = express()
 const host = '0.0.0.0'
-const port = 3000
+const port = process.env.PORT || 3000
 
-app.get('/', (req, res) => res.send('herrrro!'))
+const router = express.Router()
+app.use('/api', router)
 
 app.listen(port, host)
-console.log(`Server is running on http://${host}:${port}`)
+console.log(`Magic happens on http://${host}:${port}`)
+
+// API Routes
+
+router.get('/', (req, res) => {
+	res.json({message: 'herro dis is ma api'})
+})
+
