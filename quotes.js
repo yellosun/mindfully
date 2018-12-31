@@ -20,7 +20,7 @@ module.exports = [
 		author: 'Thích Nhất Hạnh',
 	},
 	{
-		body: 'To think in terms of either pessimism or optimism oversimplifies the truth. The problem is to see reality as it is',
+		body: 'To think in terms of either pessimism or optimism oversimplifies the truth. The problem is to see reality as it is.',
 		author: 'Thích Nhất Hạnh',
 	},
 ]
