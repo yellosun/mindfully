@@ -22,6 +22,7 @@ __/api__ extension above will populate all quotes available.
 - Life
 - Motivation
 - Healing
+- Love
 
 _*Make sure that when you type the categroy extension, that it is lowercase._
 <hr/>
