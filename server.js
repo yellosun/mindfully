@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
 	res.json(r)
 })
 
-router.get(`/:author`, async (req, res) => {
+router.get(`/author/:author`, async (req, res) => {
 	let r = await db.Quote.findAll()
 	let a = r.filter(q => {
 		let str = q.author.replace(/\s/g, '-').toLowerCase()
@@ -25,4 +25,12 @@ router.get(`/:author`, async (req, res) => {
 		return auth === req.params.author
 	})
 	res.json(a)
+})
+
+router.get('/category/:category', async (req, res) => {
+	let r = await db.Quote.findAll()
+	let c = r.filter(q=> {
+		return q.category === req.params.category
+	})
+	res.json(c)
 })
