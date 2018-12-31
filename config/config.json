@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "docker",
+    "password": "docker",
+    "database": "mindfully-api",
+    "host": "0.0.0.0",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "docker",
+    "password": "docker",
+    "database": "mindfully-api",
+    "host": "0.0.0.0",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "docker",
+    "password": "docker",
+    "database": "mindfully-api",
+    "host": "0.0.0.0",
+    "dialect": "postgres"
+  }
+}
