@@ -9,10 +9,12 @@ This project found its roots in my disgruntled disappointment for lack of a refl
 Node, Express, Sequelize, Postgres.
 
 ## Usage
-http://mindfully-api.us-east-2.elasticbeanstalk.com/api
+`http://mindfully-api.us-east-2.elasticbeanstalk.com/api`
 
 __/api__ extension above will populate all quotes available.
 <hr/>
+
+`http://mindfully-api.us-east-2.elasticbeanstalk.com/api/category/healing`
 
 **/category/:category** extension allows you to render all quotes within a specific category. You would replace ':category' with any of the following categories:
 - Mindfulness
@@ -21,14 +23,12 @@ __/api__ extension above will populate all quotes available.
 - Motivation
 - Healing
 
-`http://mindfully-api.us-east-2.elasticbeanstalk.com/api/category/healing`
-
 _*Make sure that when you type the categroy extension, that it is lowercase._
 <hr/>
 
-**/author/:author** extension follows the same guidelines as the category extension, except you would type the quote author's name. The difference here is that you will have to seperate each name (first, middle, last) with a dash(-) and all special characters have been converted to Unicode Normalization Form. Meaning, you could type `Thích Nhất Hạnh` as `thich-nhat-hanh`.
-
 `http://mindfully-api.us-east-2.elasticbeanstalk.com/api/author/tara-brach`
+
+**/author/:author** extension follows the same guidelines as the category extension, except you would type the quote author's name. The difference here is that you will have to seperate each name (first, middle, last) with a dash(-) and all special characters have been converted to Unicode Normalization Form. Meaning, you could type `Thích Nhất Hạnh` as `thich-nhat-hanh`.
 
 ## Upcoming
 ...more quotes (and possibly more specific routes catered to randomized and/or daily quote intakes).
