@@ -24,6 +24,5 @@ router.get(`/:author`, async (req, res) => {
 		let auth = str.normalize('NFD').replace(/[\u0300-\u036f]/g, "")
 		return auth === req.params.author
 	})
-	console.log(a)
 	res.json(a)
 })
