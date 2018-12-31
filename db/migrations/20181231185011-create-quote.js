@@ -9,9 +9,12 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       body: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       author: {
+        type: Sequelize.STRING
+      },
+      category: {
         type: Sequelize.STRING
       },
       createdAt: {
