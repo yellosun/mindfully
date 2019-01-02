@@ -6,7 +6,10 @@
 This project found its roots in my disgruntled disappointment due to a lack of a reflective, compassionate and easily accesible quotes API. Perhaps my google-searching could be stronger. Alas, regardless of the cause, it birthed Mindfully API: _Mindfulness-based quotes API designed to encourage greater reflection, empowerment, motivation, compassion and acceptance — (potential) cornerstones for developing a life of personal design._
 
 ## Configuration
-Node, Express, Sequelize, Postgres.
+Development: Node, Express, Sequelize, Docker and Postgres.
+
+Production: Node, Postgres and AWS.
+
 
 ## Usage
 `http://mindfully-api.us-east-2.elasticbeanstalk.com/api`
